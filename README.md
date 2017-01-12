@@ -169,7 +169,7 @@ public class MyIntentModule extends ReactContextBaseJavaModule {
 
 }
 
-#### 创建ReactPackage 该类实例化在MyAppkication 的getPackages() 方法中
+#### 创建ReactPackage 该类实例化在MyApplication 的getPackages() 方法中
 public class MyReactPackage implements ReactPackage{
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
